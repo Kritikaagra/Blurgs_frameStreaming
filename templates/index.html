@@ -1,0 +1,10 @@
+{% extends 'base.html'%}{% block content %}
+
+<h1 style="text-align: center; margin: 0 15px 0 15px;">Video Streaming using OpenCV</h1>
+<div style="display: flex; justify-content: center; height: 85vh; flex-wrap: wrap; flex: 50%;">
+    <img style="width: 35%; height: 40%; margin: 10px" src="{{ url_for('video') }}">
+    <img style="width: 35%; height: 40%; margin: 10px;" src="{{ url_for('video1') }}">
+    <img style="width: 35%; height: 40%; margin: 10px;" src="{{ url_for('video2') }}">
+    <img style="width: 35%; height: 40%; margin: 10px;" src="{{ url_for('video3') }}">
+</div>
+{% endblock %}
